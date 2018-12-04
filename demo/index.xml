@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<?xml-stylesheet type="text/xsl" href="demo.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../demo.xsl"?>
 <root>
     <env>
         <domain>local</domain>
@@ -8,13 +8,13 @@
         <uid>git/wurui</uid>
     </login>
     <p>
-        <title>demo page</title>
+        <title>ctrip-img-grid demo page</title>
         <desc>this is deme page</desc>
         <owner>openxsl</owner>
         <icon>//oxm1.cc/img/app_default.png</icon>
     </p>
     <data>
-        <list>
+        <ui-imglist>
             <i>
                 
                 <img>http://i.oxm1.cc/uploads/git/wurui/img/2a9eoppqnTj9xobvz5RhdzlAamkl-563.jpg</img>
@@ -96,7 +96,7 @@
                 <desc>14由尊敬的会员上传</desc>
           
             </i>
-        </list>
+        </ui-imglist>
     
     </data>
 </root>

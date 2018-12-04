@@ -6,13 +6,18 @@ define([],function(){
 			checkHeight=function(){
 				if(document.body.scrollHeight - win.height() -win.scrollTop() < 200){
 						//console.log('got')
-						$mod.OXRefresh({ 
-							"ui-imglist":{
-								$index: ++currentIndex,
-								$limit:16
-							}
-						})
-					}
+						try{
+							$mod.OXRefresh({ 
+								"ui-imglist":{
+									$index: ++currentIndex,
+									$limit:16
+								}
+							})
+
+						}catch(e){
+							
+						}
+											}
 			},
 			win=$(window).on('scroll',function() {
 				TO && clearTimeout(TO);

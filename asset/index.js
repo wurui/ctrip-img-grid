@@ -7,7 +7,7 @@ define([],function(){
 				if(document.body.scrollHeight - win.height() -win.scrollTop() < 200){
 						//console.log('got')
 						$mod.OXRefresh({ 
-							"list":{
+							"ui-imglist":{
 								$index: ++currentIndex,
 								$limit:16
 							}

@@ -1,13 +1,17 @@
 define([],function(){
   return {
     init:function($mod){
-    	var currentIndex=0,
+    	var $list=$('.list',$mod);
+    	var count=$list.children().length;
+    	
+    	if(count >= 16){
+    		var currentIndex=0,
 			TO,
 			checkHeight=function(){
 				if(document.body.scrollHeight - win.height() -win.scrollTop() < 200){
 						//console.log('got')
 						try{
-							$mod.OXRefresh({ 
+							$list.OXRefresh({ 
 								"ui-imglist":{
 									$index: ++currentIndex,
 									$limit:16
@@ -24,7 +28,12 @@ define([],function(){
 				TO=setTimeout(checkHeight,200)
 				
 			});
+			
+
+			
 			checkHeight();
+		}
+			
 
     }
   }

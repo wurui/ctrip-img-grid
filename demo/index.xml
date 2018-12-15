@@ -38,6 +38,7 @@
                 <title>4由行者无张老师上传</title>
               
             </i>
+            
             <i>
                 <title>8西湖</title>
                 <img>http://i.oxm1.cc/uploads/git/wurui/img/2a94bzfdcTja8126cgRfnv1Aj78-560.jpg</img>
@@ -67,11 +68,13 @@
                 <title>9来自XJiin****的游记</title>
                 
             </i>
+            
             <i>
                 <title>10杭州宋城景区</title>
                 <img>http://i.oxm1.cc/uploads/git/wurui/img/2a9t16l23Tj9jbv0npR1u8pA4w2s-594.jpg</img>
                 <title>10由尊敬的会员上传</title>
             </i>
+            <!--
             <i>
                 <title>11杭州野生动物世界</title>
                 <img>http://i.oxm1.cc/uploads/git/wurui/img/2a94bzac1Tja812bdrR4p72A5r69-632.jpg</img>
@@ -95,7 +98,8 @@
                 <img>http://i.oxm1.cc/uploads/git/wurui/img/2a94bzfdcTja8126cgRfnv1Aj78-560.jpg</img>
                 <title>14由尊敬的会员上传</title>
           
-            </i>
+            </i>-->
+         
         </ui-imglist>
     
     </data>
